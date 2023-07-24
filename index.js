@@ -3,7 +3,6 @@ const { chromium } = require('playwright');
 const puppeteer = require('puppeteer');
 require('dotenv').config();
 
-
 const app = express();
 const port = 3000;
 
